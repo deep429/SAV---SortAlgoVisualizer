@@ -1,9 +1,4 @@
 #include <bits/stdc++.h>
-#include "ujjwal_211105.h"
-#include "aamya_211112.h"
-#include "deep_211132.h"
-#include "aryaman_211130.h"
-#include "vinayak_211117.h"
 using namespace std;
 
 // Constants
@@ -22,18 +17,22 @@ bool complete = false;
 // SDL_Window *window = NULL;
 // SDL_Renderer *renderer = NULL;
 
-
-class Base
-{
-private:
-public:
+class CAlgorithms {
+    public:
+        void bubbleSort();
+        void mergeSort();
+        void merge2SortedArrays();
+        void insertionSort();
+        void selectionSort();
+        void quickSort();
+        void arrayPartition();
+        void swapSelectionSort();
 };
-
-int main()
-{
-    cout << add(3, 2);
-    return 0;
-}
+#include "ujjwal_211105.h"
+#include "aamya_211112.h"
+#include "deep_211132.h"
+#include "aryaman_211130.h"
+#include "vinayak_211117.h"
 
 int main(int argc, char *args[])
 {
